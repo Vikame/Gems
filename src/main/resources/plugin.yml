@@ -1,0 +1,13 @@
+name: Gems
+version: '${project.version}'
+main: me.vikame.gems.Gems
+api-version: 1.18
+softdepend: [ PlaceholderAPI ]
+authors: [ Vikame ]
+description: Purchase items using Gems.
+commands:
+  gems:
+    description: "View or edit gem balance"
+    aliases: [ gem ]
+  gemshop:
+    description: "Open the gem shop"

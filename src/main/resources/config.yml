@@ -1,0 +1,26 @@
+categories:
+  valuables:
+    slot: 10
+    display_item:
+      name: '&d&lVALUABLES'
+      material: DIAMOND_BLOCK
+      lore:
+        - '&7'
+        - '&5Use your Gems to purchase'
+        - '&5valuable items.'
+items:
+  this_is_used_as_an_id:
+    category: 'valuables'
+    slot: 10
+    cost: 50
+    max_purchases: 3
+    give_commands:
+      - 'give %player% minecraft:diamond_block 32'
+      - 'give %player% minecraft:gold_block 32'
+    purchase_message: '&7You have purchased %purchased_item%&7 %purchase_count%/%max_purchases% times.'
+    display_item:
+      name: '&bResource Blocks'
+      material: DIAMOND_BLOCK
+      lore:
+        - '&7this is lore'
+      enchanted: true
